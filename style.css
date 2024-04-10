@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background: lightblue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: black;
+    padding: 1rem;
+    height: 20px;
+}
+
+.nav-text{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1rem;
+    font-size: 0.75rem;
+}
+
+.apple-icon{
+    display: flex;
+    margin-left: 10rem;
+}
+
+.glass-icon{
+    display: flex;
+    margin-right: 10rem;
+}
+
+.bag-icon{
+    display: flex;
+}
+
+
+
