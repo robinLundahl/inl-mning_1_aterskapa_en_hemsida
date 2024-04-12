@@ -64,7 +64,7 @@ span:hover{
 
 img{
     width: 100%;
-    max-height: 700px;
+    max-height: 600px;
     object-fit: cover;
     object-position: center;
 }
@@ -88,6 +88,8 @@ img{
 
 .text-paragraph{
     position: absolute;
+    font-size: 25px;
+    font-weight: 350;
     top: 20%;
     left: 50%;
 }
@@ -98,7 +100,32 @@ img{
     position: absolute;
     top: 30%;
     left: 50%;
+}
 
+.read-more{
+    border-radius: 25px;
+    background-color: #2b8efeee;
+    max-width: 110px;
+    padding: 12px 25px;
+    text-align: center;
+    position: relative;
+    right: -20px;
+    top: -10px;
+
+}
+
+.buy{
+    border-radius: 25px;
+    max-width: 80px;
+    border-style: solid;
+    border-color: #2b8efeee;
+    background-color: #1a1a1a;
+    padding: 12px;
+    width: 130px;
+    text-align: center;
+    color: #2b8efeee;
+    position: relative;
+    top: -10px;
 }
 
 
