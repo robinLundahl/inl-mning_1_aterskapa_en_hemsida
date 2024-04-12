@@ -1,0 +1,88 @@
+/* Typ-selektorer */
+body{
+    margin: 0;
+    background: black
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 2.7rem;
+    padding: 0 1rem;
+    /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
+    background: #1a1a1a;
+}
+
+main{
+    /* display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background: pink;
+}
+
+/* Objekt-selektorer */
+
+.container {
+    background: rgb(202, 217, 35);
+    max-width: 90rem;
+    margin: auto;
+    width: 100%;
+}
+
+.nav{
+    align-items: center;
+    font-size: 0.7rem;
+    color: rgba(219, 219, 219, 0.914);
+    font-family: system-ui;
+    font-weight: 300;
+    flex-wrap: wrap;
+    min-width: 30rem;
+}
+
+/* Utility-selektorer */
+
+.flex{
+    display: flex;
+}
+
+.gap-1{
+    gap: 2.7rem;
+}
+
+img{
+    width: 70rem;
+    align-items: center;
+}
+
+.iPhone-text{
+    display: flex;
+    color: white;
+    background: green;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.iPhone-info{
+    color: white;
+    background: rgb(72, 70, 70);
+    padding: 2rem;
+    align-self: center;
+    justify-content: center;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.work-icon{
+    fill: 0;
+}
+
+.nav icon-size{
+    font-size: 30px;
+}
+
+.icon-size{
+    font-size: 20px !important;
+    font-weight: 300 !important;
+}
