@@ -1,7 +1,13 @@
 /* Typ-selektorer */
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
 body{
     margin: 0;
-    background: black
+    background: rgb(255, 255, 255)
+    
 }
 
 .header {
@@ -13,30 +19,23 @@ body{
     background: #1a1a1a;
 }
 
-main{
-    /* display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    background: pink;
-}
+.footer{
+    display: flex;
 
+}
 /* Objekt-selektorer */
 
 .container {
-    background: rgb(202, 217, 35);
-    max-width: 90rem;
+    max-width: 150rem;
     margin: auto;
     width: 100%;
 }
 
-.nav{
+.navbar{
     align-items: center;
     font-size: 0.7rem;
     color: rgba(219, 219, 219, 0.914);
-    font-family: system-ui;
     font-weight: 300;
-    flex-wrap: wrap;
-    min-width: 30rem;
 }
 
 /* Utility-selektorer */
@@ -45,29 +44,8 @@ main{
     display: flex;
 }
 
-.gap-1{
+.gap-3{
     gap: 2.7rem;
-}
-
-img{
-    width: 70rem;
-    align-items: center;
-}
-
-.iPhone-text{
-    display: flex;
-    color: white;
-    background: green;
-    padding: 1rem;
-    justify-content: center;
-}
-
-.iPhone-info{
-    color: white;
-    background: rgb(72, 70, 70);
-    padding: 2rem;
-    align-self: center;
-    justify-content: center;
 }
 
 span:hover{
@@ -78,11 +56,50 @@ span:hover{
     fill: 0;
 }
 
-.nav icon-size{
-    font-size: 30px;
-}
-
 .icon-size{
     font-size: 20px !important;
     font-weight: 300 !important;
+    cursor: pointer;
 }
+
+img{
+    width: 100%;
+    max-height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-header{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    font-weight: 550;
+    font-size: 58px;
+}
+
+.text-paragraph{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.read-more-and-buy-buttons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+}
+
+
+
