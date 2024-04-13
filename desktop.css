@@ -62,17 +62,21 @@ span:hover{
     cursor: pointer;
 }
 
-img{
-    width: 100%;
-    max-height: 700px;
-    object-fit: cover;
-    object-position: center;
+.img-div{
+    background-image: url('iPhone_large.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container{
     flex-direction: column;
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .text-header{
