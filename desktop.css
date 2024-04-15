@@ -6,39 +6,42 @@
 
 body{
     margin: 0;
-    background: rgb(255, 255, 255)
-    
+    /* background: rgb(255, 255, 255) */
 }
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-inline-start: 15px;
+    padding-inline-end: 10px;
     height: 2.7rem;
-    padding: 0 1rem;
     /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
     background: #1a1a1a;
-}
-
-.footer{
-    display: flex;
-
 }
 /* Objekt-selektorer */
 
 .container {
-    max-width: 150rem;
+    max-width: 160rem;
     margin: auto;
     width: 100%;
 }
 
 .navbar{
+    justify-content: space-around;
     align-items: center;
     font-size: 0.7rem;
     color: rgba(219, 219, 219, 0.914);
     font-weight: 300;
+    text-wrap: nowrap;
+    margin: 0 auto;
 }
 
+
 /* Utility-selektorer */
+
+.menu-icon{
+    display: none !important;
+}
 
 .flex{
     display: flex;
@@ -48,6 +51,14 @@ body{
     gap: 2.7rem;
 }
 
+.gap-2{
+    gap:1.5rem;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
 span:hover{
     cursor: pointer;
 }
@@ -55,6 +66,7 @@ span:hover{
 .work-icon{
     fill: 0;
 }
+
 
 .icon-size{
     font-size: 20px !important;
@@ -67,52 +79,49 @@ span:hover{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 43.5rem;
+    width: 100%;
 }
 
 .main-container{
     flex-direction: column;
+    align-items: center;
+    margin: auto;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 250, 250);
 }
 
-.text-header{
+.h1-main{
     display: flex;
+    flex-direction: row;
     position: absolute;
-    left: 40%;
-    top: 8%;
-    font-weight: 550;
-    font-size: 58px;
+    margin-top: 52px;
+    font-weight: 480;
+    font-size: 56px;
 }
 
 .text-paragraph{
     position: absolute;
-    font-size: 30px;
-    font-weight: 350;
-    top: 20%;
-    left: 42%;
+    font-size: 28px;
+    font-weight: 250;
+    margin-top: 121px;
 }
 
 .read-more-and-buy-buttons{
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 30%;
-    left: 42.5%;
+    margin-top: 175px;
+    
 }
 
 .read-more{
     border-radius: 25px;
     background-color: #2b8efeee;
     max-width: 130px;
-    padding: 12px 25px;
+    padding: 12px 23px;
     text-align: center;
     position: relative;
-    right: -20px;
-    top: -10px;
 
 }
 
@@ -128,7 +137,6 @@ span:hover{
     text-align: center;
     color: #2b8efeee;
     position: relative;
-    top: -10px;
 }
 
 

@@ -1,0 +1,8 @@
+@media (max-width: 1047px) {
+    .navbar {
+        display: flex;
+        max-width: auto;
+    }
+
+
+}
