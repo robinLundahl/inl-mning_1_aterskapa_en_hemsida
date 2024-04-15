@@ -122,21 +122,23 @@ span:hover{
     display: flex;
     flex-direction: row;
     position: absolute;
-    margin-top: 175px;
-    
+    margin-top: 175px;  
 }
 
-.read-more{
+.read-more-container{
     border-radius: 25px;
     background-color: #2b8efeee;
     max-width: 130px;
     padding: 12px 23px;
     text-align: center;
     position: relative;
-
 }
 
-.buy{
+.read-more-text{
+    font-size: 14px;
+}
+
+.buy-text{
     border-radius: 25px;
     max-width: 80px;
     border-style: solid;

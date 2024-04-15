@@ -4,7 +4,7 @@
     }
 
     .menu-icon{
-        display: flex !important;
+        /* display: flex !important; */
     }
 
     .icon-menu{
@@ -32,7 +32,46 @@
     .img-div {
         background-image: url('iPhone_small.jpeg');
         background-position: center center;
-        height: 43.5rem;
+        height: 31rem;
         width: 100%;
+    }
+
+    .h1-main {
+        margin-top: 38px;
+        font-size: 32px;
+    }
+
+    .text-paragraph {
+        font-size: 18px;
+        margin-top: 80px;
+    }
+
+    .read-more-and-buy-buttons {
+        margin-top: 120px;
+    }
+
+    .read-more-container {
+        max-width: 80px;
+        max-height: 35px;
+        justify-content: center;
+    }
+
+    .read-more-text{
+        display: flex;
+        align-items: center;
+        text-wrap: nowrap;
+    }
+
+    .buy-container{
+        max-width: 60px;
+        max-height: 35px;
+        justify-content: center;
+    }
+
+    .buy-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
     }
 }
