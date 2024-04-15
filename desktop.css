@@ -14,7 +14,7 @@ body{
     justify-content: space-around;
     padding-inline-start: 15px;
     padding-inline-end: 10px;
-    height: 2.7rem;
+    height: 2.8rem;
     /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
     background: #1a1a1a;
 }
@@ -40,15 +40,15 @@ body{
 /* Utility-selektorer */
 
 .menu-icon{
-    display: none !important;
+    display: none;
 }
 
 .flex{
     display: flex;
 }
 
-.gap-3{
-    gap: 2.7rem;
+.gap-1-7{
+    gap: 1.7rem;
 }
 
 .gap-2{
@@ -67,18 +67,29 @@ span:hover{
     fill: 0;
 }
 
+.icon{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.icon-menu{
+    display: none;
+}
+
 
 .icon-size{
+    display: flex;
     font-size: 20px !important;
     font-weight: 300 !important;
     cursor: pointer;
+    /* height: 44px; */
 }
 
 .img-div{
     background-image: url('iPhone_large.jpeg');
-    background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
     height: 43.5rem;
     width: 100%;
 }
@@ -138,6 +149,3 @@ span:hover{
     color: #2b8efeee;
     position: relative;
 }
-
-
-

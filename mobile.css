@@ -1,4 +1,4 @@
-@media (max-width: 734px) {
+@media (max-width: 1040px) {
     .navbar-text{
         display: none;
     }
@@ -7,7 +7,32 @@
         display: flex !important;
     }
 
+    .icon-menu{
+        display: flex !important;
+    }
+
     .navbar{
-        display: block;
+        display: flex;
+    }
+
+    .navbar-text{
+        display: none !important;
+    }
+    
+    .apple-icon{
+        display: flex;
+        flex-grow: 1 !important;
+        text-align: left;
+    }
+
+    .gap-1-7{
+        gap: 0;
+    }
+
+    .img-div {
+        background-image: url('iPhone_small.jpeg');
+        background-position: center center;
+        height: 43.5rem;
+        width: 100%;
     }
 }
