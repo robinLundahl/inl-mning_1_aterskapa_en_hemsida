@@ -51,10 +51,6 @@ body{
     gap: 1.7rem;
 }
 
-.gap-2{
-    gap:1.5rem;
-}
-
 .gap-1{
     gap: 1rem;
 }
@@ -84,7 +80,6 @@ span:hover{
     font-size: 20px !important;
     font-weight: 300 !important;
     cursor: pointer;
-    /* height: 44px; */
 }
 
 .img-div{
