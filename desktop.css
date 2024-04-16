@@ -6,7 +6,6 @@
 
 body{
     margin: 0;
-    /* background: rgb(255, 255, 255) */
 }
 
 .header {
@@ -23,17 +22,17 @@ body{
 .container {
     max-width: 160rem;
     margin: auto;
-    width: 100%;
 }
 
 .navbar{
-    justify-content: space-around;
+    display: flex;
     align-items: center;
     font-size: 0.7rem;
     color: rgba(219, 219, 219, 0.914);
     font-weight: 300;
     text-wrap: nowrap;
     margin: 0 auto;
+    flex-shrink: 2;
 }
 
 
@@ -64,8 +63,6 @@ span:hover{
 }
 
 .icon{
-    height: 44px;
-    display: flex;
     align-items: center;
     padding: 0 8px;
 }
@@ -73,7 +70,6 @@ span:hover{
 .icon-menu{
     display: none;
 }
-
 
 .icon-size{
     display: flex;
@@ -117,7 +113,7 @@ span:hover{
     display: flex;
     flex-direction: row;
     position: absolute;
-    margin-top: 175px;  
+    margin-top: 175px;
 }
 
 .read-more-container{
@@ -127,10 +123,13 @@ span:hover{
     padding: 12px 23px;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 
 .read-more-text{
     font-size: 14px;
+    text-align: center;
+    padding: 2px;
 }
 
 .buy-text{
@@ -145,4 +144,10 @@ span:hover{
     text-align: center;
     color: #2b8efeee;
     position: relative;
+    
+}
+.buy-text:hover{
+    background-color: #2b8efeee;
+    color: white;
+    cursor: pointer;
 }
