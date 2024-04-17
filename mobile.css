@@ -21,7 +21,8 @@
     }
 
     .img-div {
-        background-image: url('iPhone_small.jpeg');
+        display: flex;
+        background-image: url('iPhone-small.jpeg');
         background-position: center center;
         height: 31rem;
         width: 100%;
