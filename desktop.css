@@ -9,13 +9,16 @@ body{
 }
 
 .header {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     padding-inline-start: 15px;
-    padding-inline-end: 10px;
-    height: 2.8rem;
+    /* padding-inline-end: 10px; */
+    height: 2.7rem;
     /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
-    background: #1a1a1a;
+    background: #ffffff;
 }
 /* Objekt-selektorer */
 
@@ -24,34 +27,41 @@ body{
     margin: auto;
 }
 
-.navbar{
+.icon-container{
     display: flex;
     align-items: center;
-    font-size: 0.7rem;
-    color: rgba(219, 219, 219, 0.914);
-    font-weight: 300;
-    text-wrap: nowrap;
-    margin: 0 auto;
-    flex-shrink: 2;
 }
 
+.search-icon{
+    margin-right: 1.5rem;
+}
+
+.navbar, ul{
+    width: 800px;
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.914);
+    font-weight: 300;
+    text-wrap: nowrap;
+    padding: 0px;
+}
 
 /* Utility-selektorer */
 
 .menu-icon{
-    display: none;
-}
-
-.flex{
-    display: flex;
-}
-
-.gap-1-7{
-    gap: 1.7rem;
+    display: none !important;
+    /* opacity: 0; */
 }
 
 .gap-1{
     gap: 1rem;
+}
+
+.flex{
+    display: flex;
 }
 
 span:hover{
@@ -63,8 +73,10 @@ span:hover{
 }
 
 .icon{
+    display: flex;
     align-items: center;
     padding: 0 8px;
+    color: rgba(0, 0, 0, 0.92);
 }
 
 .icon-menu{
@@ -72,8 +84,7 @@ span:hover{
 }
 
 .icon-size{
-    display: flex;
-    font-size: 20px !important;
+    font-size: 22px !important;
     font-weight: 300 !important;
     cursor: pointer;
 }
@@ -124,6 +135,10 @@ span:hover{
     text-align: center;
     position: relative;
     cursor: pointer;
+}
+
+.read-more-container:hover{
+    background-color: #4b9dfaee;
 }
 
 .read-more-text{
