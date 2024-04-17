@@ -1,3 +1,5 @@
+/* Här ställer jag in/ändrar i den mobila vyn med max-width på 970px. */
+
 @media (max-width: 970px) {
     .img-div {
             height: 40rem;

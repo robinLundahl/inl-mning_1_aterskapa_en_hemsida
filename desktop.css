@@ -1,4 +1,4 @@
-/* Typ-selektorer */
+/* Här väljer jag att allt ska ha en viss font och att allt ska vara border-box. */
 * {
     box-sizing: border-box;
     font-family: system-ui;
@@ -8,6 +8,7 @@ body{
     margin: 0;
 }
 
+/* Här ställer jag in för min meny. */
 .header {
     width: 100%;
     display: flex;
@@ -18,22 +19,24 @@ body{
     /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
     background: #ffffff;
 }
-/* Objekt-selektorer */
 
 .container {
     max-width: 160rem;
     margin: auto;
 }
 
+/* Denna är för de tre (i mobilläge) ikoner som finns till höger. */
 .icon-container{
     display: flex;
     align-items: center;
 }
 
+/* Detta är för specifikt för förstoringsglaset på menyn. */
 .search-icon{
     margin-right: 1.5rem;
 }
 
+/* Detta gäller endast orden i menyraden. */
 .navbar, ul{
     width: 800px;
     list-style: none;
@@ -46,16 +49,18 @@ body{
     text-wrap: nowrap;
     padding: 0px;
 }
-
+/* Detta gäller för alla ikoner plus orden i menyraden. */
 .icon {
     display: flex;
     align-items: center;
     padding: 0 8px;
     color: rgba(0, 0, 0, 0.92);
+    font-size: 22px !important;
+    font-weight: 300 !important;
+    cursor: pointer;
 }
 
-/* Utility-selektorer */
-
+/* Detta gäller för hamburgar-ikonen som dyker upp vid mobilvyn. */
 .menu-icon{
     display: none !important;
     /* opacity: 0; */
@@ -73,27 +78,12 @@ span:hover{
     cursor: pointer;
 }
 
+/* Detta gäller för väsk-ikonen i menyraden. */
 .work-icon{
     fill: 0;
 }
 
-.icon{
-    display: flex;
-    align-items: center;
-    padding: 0 8px;
-    color: rgba(0, 0, 0, 0.92);
-}
-
-.icon-menu{
-    display: none;
-}
-
-.icon-size{
-    font-size: 22px !important;
-    font-weight: 300 !important;
-    cursor: pointer;
-}
-
+/* Här läggs bilden på telefonen ut i main */
 .img-div{
     background-image: url('iPhone-large.jpeg');
     background-position: center center;
@@ -101,6 +91,7 @@ span:hover{
     width: 100%;
 }
 
+/* Här ställer jag in main-container. */
 .main-container{
     flex-direction: column;
     align-items: center;
@@ -109,6 +100,7 @@ span:hover{
     color: rgb(255, 250, 250);
 }
 
+/* Här skrivs iPhone 15 Pro ut med dess inställningar. */
 .h1-main{
     display: flex;
     flex-direction: row;
@@ -118,6 +110,7 @@ span:hover{
     font-size: 56px;
 }
 
+/* Följande block här nedan ställs texten och knapparna in som ligger under iPhone 15 Pro-texten. */
 .text-paragraph{
     position: absolute;
     font-size: 28px;
