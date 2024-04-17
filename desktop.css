@@ -14,8 +14,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding-inline-start: 15px;
-    /* padding-inline-end: 10px; */
     height: 2.7rem;
     /* Första värdet (0) är upp och ner, andra värdet (1rem) är höger och vänster*/
     background: #ffffff;

@@ -1,8 +1,16 @@
-@media (max-width: 1047px) {
-    .navbar {
-        display: flex;
-        max-width: auto;
+@media (max-width: 970px) {
+    .img-div {
+            height: 40rem;
+        }
+
+    .h1-main {
+        margin-top: 52px;
+        font-weight: 480;
+        font-size: 50px;
     }
 
+    .text-paragraph {
+        font-size: 25px;
+    }
 
 }
