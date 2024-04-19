@@ -41,7 +41,6 @@ body{
     width: 800px;
     list-style: none;
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.914);
@@ -63,7 +62,6 @@ body{
 /* Detta gäller för hamburgar-ikonen som dyker upp vid mobilvyn. */
 .menu-icon{
     display: none !important;
-    /* opacity: 0; */
 }
 
 .gap-1{
